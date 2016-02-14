@@ -47,6 +47,8 @@
   height: 450px;
   min-height: 450px;
   margin: 10px;
+}
+.box:hover {
   /*  hover property*/
   background-color: rgb(240, 240, 240);
 }
@@ -79,6 +81,9 @@
   line-height: 1.25;
   text-align: left;
 }
+
+/* recover list style*/
+
 
 /* media query*/
 
