@@ -84,6 +84,12 @@
 
 /* recover list style*/
 
+.box>.list {
+  text-align: left;
+}
+.box>.list li {
+  list-style-type: disc;
+}
 
 /* media query*/
 
