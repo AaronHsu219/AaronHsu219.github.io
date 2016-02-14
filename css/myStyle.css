@@ -47,6 +47,8 @@
   height: 450px;
   min-height: 450px;
   margin: 10px;
+  /*  hover property*/
+  background-color: rgb(240, 240, 240);
 }
 .box>.image-wrapper {
   display: inline-block;
