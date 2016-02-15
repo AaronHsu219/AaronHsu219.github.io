@@ -32,16 +32,16 @@
   max-width: 1000px;
   text-align: center;
   position: relative;
-  padding-top: 15px;
+  padding-top: 110px;
 }
 
 /*box - and inside*/
 
 .box {
   border: 0px solid black;
-  /*  overflow: auto;*/
-  /*  overflow-x: hidden;*/
-  overflow: hidden;
+  overflow: auto;
+  overflow-x: hidden;
+  /*  overflow: hidden;*/
   display: inline-block;
   width: 305px;
   height: 450px;

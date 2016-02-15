@@ -4,62 +4,50 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Aaron's Page Collection</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Aaron's page collection</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ropa+Sans">
   <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./css/mainCS.css">
-  <link rel="stylesheet" href="./css/mainSH.css">
+  <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/myStyle.css">
   <script src="./js/vendor/modernizr.custom.min.js"></script>
   <script src="./js/vendor/jquery-1.10.2.min.js"></script>
-  <script src="./js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
-  <script src="./js/mainCS.js"></script>
-  <script src="./js/mainSH.js"></script>
+  <script src="./js/main.js"></script>
 </head>
 
 <body>
-  <!-- banner/ carousel-->
-  <div class="slideshow">
-    <div class="slideshow-slides">
-      <a href="./" class="slide" id="slide-1"><img src="./img/slide-1.jpg" alt="" width="1600" height="465"></a>
-      <a href="./" class="slide" id="slide-2"><img src="./img/slide-2.jpg" alt="" width="1600" height="465"></a>
-      <a href="./" class="slide" id="slide-3"><img src="./img/slide-3.jpg" alt="" width="1600" height="465"></a>
-      <a href="./" class="slide" id="slide-4"><img src="./img/slide-4.jpg" alt="" width="1600" height="465"></a>
-    </div>
-    <div class="slideshow-nav">
-      <a href="#" class="prev">Prev</a>
-      <a href="#" class="next">Next</a>
-    </div>
-    <div class="slideshow-indicator"></div>
-  </div>
-
-  <!--  sticky header -->
-  <header class="page-header" style="z-index:2">
+  <!-- header -->
+  <header class="hero-header">
     <div class="inner">
-      <div class="subject">Aaron's page collection</div>
-      <!--      <h1 class="site-logo"><a href="./"><img src="./img/logo.png" alt="Shiftbrain" height="65" width="200"></a></h1>-->
-
-      <nav class="primary-nav" role="navigation">
-        <ul>
-          <li><a href="./">About</a></li>
-          <li><a href="./">Work</a></li>
-          <li><a href="./">Blog</a></li>
-          <li><a href="./">Recruit</a></li>
-          <!--          <li><a href="./">Contact</a></li>-->
-        </ul>
-      </nav>
+      <div class="slideshow">
+        <img src="./img/slide-1.jpg" alt="" width="1600" height="465">
+        <img src="./img/slide-2.jpg" alt="" width="1600" height="465">
+        <img src="./img/slide-3.jpg" alt="" width="1600" height="465">
+        <img src="./img/slide-4.jpg" alt="" width="1600" height="465">
+      </div>
     </div>
   </header>
-  <!--  contents  -->
-
+  <!--  banner  -->
+  <header class="page-header" role="banner">
+    <div class="inner2">
+      <div class="subject">Aaron's page collection</div>
+      <div class="nav-box">
+        <div class="nav"><a href="">About</a></div>
+        <div class="nav"><a href="">Work</a></div>
+        <div class="nav"><a href="">Blog</a></div>
+        <div class="nav"><a href="">Recruit</a></div>
+      </div>
+    </div>
+  </header>
   <!-- contents -->
-  <div role="main" style="z-index:3">
+  <div role="main">
     <section class="topics-section" id="topics">
       <!-- content-->
       <div class="content">
         <div class="box">
           <span class="image-wrapper">
-            <a href="http://aaronhsu219.github.io/LAYOUT/basic03">              
-             <img class="image" src="./img/topic-1.jpg" alt="" height="230" width="304">              
+            <a href="http://aaronhsu219.github.io/LAYOUT/basic03">
+             <img class="image" src="./img/topic-1.jpg" alt="" height="230" width="304">
             </a>
           </span>
           <b class="title">RWD 01</b>
@@ -70,8 +58,8 @@
         </div>
         <div class="box">
           <span class="image-wrapper">
-            <a href="http://aaronhsu219.github.io/LAYOUT/advanced03">              
-             <img class="image" src="./img/topic-2.jpg" alt="" height="230" width="304">              
+            <a href="http://aaronhsu219.github.io/LAYOUT/advanced03">
+             <img class="image" src="./img/topic-2.jpg" alt="" height="230" width="304">
             </a>
           </span>
           <b class="title">RWD 02</b>
@@ -163,7 +151,6 @@
       <div class="copyright">Copyright © AaronHsu</div>
     </div>
   </footer>
-
 </body>
 
 </html>
