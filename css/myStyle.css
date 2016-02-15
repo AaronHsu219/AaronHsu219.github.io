@@ -40,8 +40,8 @@
 .box {
   border: 0px solid black;
   /*  overflow: auto;*/
-  /*  overflow-x: hidden;*/
-  overflow: hidden;
+  overflow-x: hidden;
+  /*  overflow: hidden;*/
   display: inline-block;
   width: 305px;
   height: 450px;
