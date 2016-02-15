@@ -113,5 +113,9 @@ img {
   .primary-nav {
     float: none;
     margin: 0 auto;
+    font-size: 0.8em;
+  }
+  .subject {
+    font-size: 1.5em;
   }
 }
