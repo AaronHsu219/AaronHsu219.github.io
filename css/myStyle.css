@@ -39,7 +39,7 @@
 
 .box {
   border: 0px solid black;
-  /*  overflow: auto;*/
+  overflow: auto;
   overflow-x: hidden;
   /*  overflow: hidden;*/
   display: inline-block;
