@@ -204,10 +204,14 @@
   .subject {
     float: none;
     margin: 0 auto;
+    font-size: 1.5em;
   }
   .nav-box {
     float: none;
     margin: 0 auto;
+  }
+  primary-nav {
+    font-size: 0.8em;
   }
 }
 @media screen and (max-width: 1000px) {
