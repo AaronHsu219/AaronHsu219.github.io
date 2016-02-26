@@ -95,7 +95,7 @@
 .box>.list li {
 	list-style-type: disc;
 }
-.box>.span {
+.box>span {
 	padding: 10px;
 }
 .box a {
