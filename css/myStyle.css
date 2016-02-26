@@ -51,6 +51,7 @@
 	height: 450px;
 	min-height: 450px;
 	margin: 10px;
+	position: relative;
 }
 .box:hover {
 	/*  hover property*/
@@ -86,6 +87,15 @@
 	line-height: 1.25;
 	text-align: left;
 }
+.box .repo {
+	color: rgb(77, 77, 77);
+	font-size: 16px;
+	line-height: 1.25;
+	text-align: left;
+	/*	position */
+	position: absolute;
+	bottom: 0;
+}
 
 /* recover list style*/
 
@@ -94,13 +104,6 @@
 }
 .box>.list li {
 	list-style-type: disc;
-}
-.box>.lnk {
-	padding: 15px;
-	/*	background-color: grey;*/
-}
-.box a {
-	text-align: left;
 }
 
 /*
