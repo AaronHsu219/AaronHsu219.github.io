@@ -95,6 +95,9 @@
 .box>.list li {
 	list-style-type: disc;
 }
+.box>.span {
+	padding: 5px;
+}
 .box a {
 	text-align: left;
 }
