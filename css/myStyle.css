@@ -97,6 +97,7 @@
 }
 .box>span {
 	padding: 10px;
+	background-color: grey;
 }
 .box a {
 	text-align: left;
