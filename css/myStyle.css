@@ -95,7 +95,7 @@
 .box>.list li {
 	list-style-type: disc;
 }
-.lnk>a {
+.box>a {
 	text-align: left;
 }
 
