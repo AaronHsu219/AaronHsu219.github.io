@@ -95,7 +95,7 @@
 .box>.list li {
 	list-style-type: disc;
 }
-.box>span {
+.box>.lnk {
 	padding: 10px;
 	background-color: grey;
 }
